@@ -17,7 +17,7 @@ function AuthProvider({ children }) {
     let encontrado = false;
 
     for (const element of users) {
-      if (element.username === username && element.password === password) {
+    if ((element.email === username || element.username === username) && element.password === password) {
         console.log("Usuario autenticado");
         setUser({ username: element.username }); // Guardamos el objeto del usuario
         encontrado = true;
