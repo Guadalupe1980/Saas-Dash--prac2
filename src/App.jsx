@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import LoginForm from "./components/LoginForm";
 import Home from "./Pages/Home";
 import Login from "./Pages/Login";
-import Profile from "./Pages/profile";
+import Profile from "./Pages/Profile";
 import { AuthProvider } from "./contexts/AuthContext";
 
 function App() {
